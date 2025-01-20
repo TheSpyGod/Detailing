@@ -25,8 +25,9 @@
 }
 
 .title-card h1 {
+  position: relative;
   color: white;
-  z-index: 2;
+  z-index: 3;
   background-image: linear-gradient(to right, transparent, black, transparent);
   font-size: 8vw; 
   font-family: 'Montserrat', sans-serif;
@@ -37,6 +38,8 @@
   margin: 0; 
   pointer-events: none;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2), 0 0 30px rgba(255, 255, 255, 0.8);
+  animation: flicker 5s infinite;
+  
 }
 
 .title-card {
@@ -76,4 +79,130 @@
   font-size: 1.5rem;
   font-weight: normal;
   cursor: pointer;
+}
+
+.maincontent {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  background: linear-gradient(to bottom, #000000, #310000, #570000, #820000, #a70e0e);
+  text-align: center;
+  min-width: 100%;
+  height: fit-content;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.maincontent::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('carbon.jpg') repeat;
+  opacity: 0.09; /* Adjust the opacity as needed */
+  z-index: 1;
+}
+
+.maincontent > * {
+  position: relative;
+  z-index: 2;
+}
+
+.maincontent button {
+  transition: background 0.6s ease-in-out;
+  color: white; 
+  border: none; 
+  cursor: pointer;
+  font-weight: normal;
+  width: auto;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: normal;
+  background: #333;
+  background-position: 0 0, 10px 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), -2px -2px 4px rgba(255, 255, 255, 0.3);
+  
+}
+
+.card {
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+  color: white;
+  font-size: 70%;
+  flex: 1 1 calc(33.333% - 40px);
+  max-width: calc(33.333% - 40px);
+  min-width: 250px;
+  background: linear-gradient(to bottom,rgb(19, 19, 19), #000000);
+  border-radius: 8%;
+  height: fit-content;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('leather.jpg') repeat;
+  opacity: 0.1; 
+  border-radius: 8%; 
+  z-index: 1;
+}
+
+.card > * {
+  position: relative;
+  z-index: 2;
+}
+
+.card p {
+  font-size: 1.2rem;
+  color: #333;
+  background: linear-gradient(to right, #aaa, #ccc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 
+    1px 1px 2px rgba(0, 0, 0, 0.8), 
+    -1px -1px 2px rgba(255, 255, 255, 0.8), 
+    inset 1px 1px 2px rgba(0, 0, 0, 0.8), 
+    inset -1px -1px 2px rgba(255, 255, 255, 0.8);
+}
+
+.card h3 { 
+  font-size: 1.5rem;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2), 0 0 30px rgba(255, 255, 255, 0.8);
+  animation: flicker 5s infinite;
+}
+
+.maincontent button:hover {
+  background: linear-gradient(to right, #0059b8, #004084); 
+}
+
+.banner {
+  margin: 0px;
+  color:white;
+  background: linear-gradient(to top, black, rgb(41, 41, 41), rgb(0, 0, 0));
+}
+
+.banner h1 {
+  margin:0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@keyframes flicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2), 0 0 30px rgba(255, 255, 255, 0.8);
+  }
+  20%, 24%, 55% {
+    text-shadow: none;
+  }
 }
