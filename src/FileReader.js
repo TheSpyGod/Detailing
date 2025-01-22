@@ -14,9 +14,8 @@ export function readFile(fileName) {
             records.forEach(record => {
                 const elements = record.split(';');
                 if (elements.length === 4) {
-                    // Add checkmark to each line ending with a period in detailedDescription
                     elements[3] = elements[3].split('.').map(line => {
-                        return line.trim().length > 0 ? line + ' ✔' + '\n': line;
+                        return line.trim().length > 0 ? line + ' ✔': line;
                     }).join('<br/>');
                     result.push([...elements]);
                 }
