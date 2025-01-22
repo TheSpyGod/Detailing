@@ -1,5 +1,5 @@
-Tuning;67.45;2days;This is a detailed description of the Tuning service.
-Lorey;67.45;2days;This is a detailed description of the Tuning service.
-Lorey;67.45;2days;This is a detailed description of the Tuning service.
-Lorey;67.45;2days;This is a detailed description of the Tuning service.
-Lorey;67.45;2days;This is a detailed description of the Tuning service.
+Tuning;Cena: 67.45;2days;Detailed Feature 1. Feature 2. Feature 3.
+Cleaning;Cena: 67.45;2days;Detailed Feature 1. Feature 2. Feature 3.
+Lorey;Cena: 67.45;2days;Detailed Feature 1. Feature 2. Feature 3.
+Lorey;Cena: 67.45;2days;Detailed Feature 1. Feature 2. Feature 3.
+Lorey;Cena: 67.45;2days;Detailed Feature 1. Feature 2. Feature 3.

@@ -6,19 +6,23 @@ export function readFile(fileName) {
             }
             return response.text();
         })
-    .then(text => {
-        console.log('File content:', text);
-        const records = text.trim().split('\n');
-        const result = [];
+        .then(text => {
+            console.log('File content:', text);
+            const records = text.trim().split('\n');
+            const result = [];
 
-        records.forEach(record => {
+            records.forEach(record => {
                 const elements = record.split(';');
                 if (elements.length === 4) {
+                    // Add checkmark to each line ending with a period in detailedDescription
+                    elements[3] = elements[3].split('.').map(line => {
+                        return line.trim().length > 0 ? line + ' ✔' + '\n': line;
+                    }).join('<br/>');
                     result.push([...elements]);
                 }
-        });
+            });
 
-        return result;
+            return result;
     })
     .catch(error => {
         console.error('There has been a problem with your fetch operation:', error);

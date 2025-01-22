@@ -4,6 +4,7 @@ import './App.css';
 import Card from './Card';
 import { readFile } from './FileReader';
 import logo from './logo.svg';
+import DOMPurify from 'dompurify';
 
 function App() {
   const [cards, setData] = useState([]);
@@ -35,12 +36,16 @@ function App() {
         title={card[0]}
         description={card[2]}
         price={card[1]} 
-        detailedDescription={card[3]}
+        detailedDescription={<span dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(card[3]) }} />}
         
         />
         ))  
         }
       </div>
+      <footer>
+          <img src={logo} alt="logo" className="logo"/>
+          <p>© 2025 DETAILING</p>
+      </footer>
     </div>
   );
 }
