@@ -1,5 +1,5 @@
 export function readFile(fileName) {
-    return fetch(`/${fileName}`)
+    return fetch(`${process.env.PUBLIC_URL}/${fileName}`)
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
