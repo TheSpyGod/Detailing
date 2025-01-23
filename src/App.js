@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import video from './smoke.mp4';
+import video2 from './smoke2.mp4';
 import './App.css';
 import Card from './Card';
 import { processRecords } from './FileReader';
@@ -23,6 +24,13 @@ function App() {
     i18n.changeLanguage(lng);
   };
 
+  useEffect(() => {
+    // Ensure the Facebook SDK is loaded
+    if (window.FB) {
+      window.FB.XFBML.parse();
+    }
+  }, []);
+
   return (
     <div className="App">
       <header className="mainheader">
@@ -36,6 +44,28 @@ function App() {
           <button>{t('book_button')}</button>
         </div>
       </header>
+      <div className="banner">
+        <h1>{t('page')}</h1>
+      </div>
+      <div className="facebook-feed">
+        <div className=".video-container">
+          <video src={video2} autoPlay loop muted></video>
+          <h1>{t('quote')}</h1>
+       </div>
+          <div className="fb-page" 
+            data-href="https://www.facebook.com/profile.php?id=61557200394253" 
+            data-tabs="timeline" 
+            data-width="500" 
+            data-height="" 
+            data-small-header="false" 
+            data-adapt-container-width="true" 
+            data-hide-cover="false" 
+            data-show-facepile="true">
+            <blockquote cite="https://www.facebook.com/profile.php?id=61557200394253" className="fb-xfbml-parse-ignore">
+              <a href="https://www.facebook.com/profile.php?id=61557200394253">Your Page Name</a>
+            </blockquote>
+          </div>
+      </div>
       <div className="banner">
         <h1>{t('offers')}</h1>
       </div>
