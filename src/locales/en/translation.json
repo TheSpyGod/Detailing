@@ -1,0 +1,68 @@
+{
+    "title": "DETAILING",
+    "book_button": "BOOK AN APPOINTMENT",
+    "offers": "Our Offers",
+    "contact": "Contact",
+    "records": [
+    {
+      "title": "Complete",
+      "price": "60 €",
+      "time": "Time: 1 Day",
+      "details": [
+        "Body washing.",
+        "Interior vacuuming including trunk.",
+        "Cockpit cleaning.",
+        "Washing all windows inside and out.",
+        "Cleaning internal plastic elements.",
+        "Washing mats.",
+        "Tire dressing.",
+        "Application of quick detailer / body shine."
+      ]
+    },
+    {
+      "title": "Pro",
+      "price": "80 €",
+      "time": "Time: 2 Days",
+      "details": [
+        "Body washing.",
+        "Interior vacuuming including trunk.",
+        "Cockpit cleaning.",
+        "Washing all windows inside and out.",
+        "Cleaning internal plastic elements.",
+        "Washing mats.",
+        "Tire dressing.",
+        "Protecting the paint with hard wax (protection up to 6 months).",
+        "Washing rims.",
+        "Invisible wiper."
+      ]
+    },
+    {
+      "title": "Pro +",
+      "price": "90 €",
+      "time": "Time: 2 Days",
+      "details": [
+        "Body washing.",
+        "Interior vacuuming including trunk.",
+        "Cockpit cleaning.",
+        "Washing all windows inside and out.",
+        "Cleaning internal plastic elements.",
+        "Washing mats.",
+        "Tire dressing.",
+        "Protecting the paint with hard wax (protection up to 12 months).",
+        "Washing rims.",
+        "Invisible wiper."
+      ]
+    },
+    {
+      "title": "Lorey",
+      "price": "Price: 67.45",
+      "time": "2 days",
+      "details": [
+        "Detailed Feature 1.",
+        "Feature 2.",
+        "Feature 3."
+      ]
+    }
+  ]
+}
+  

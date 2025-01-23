@@ -211,5 +211,36 @@ footer img {
   width: 50px;
   height: 50px;
   margin: 10px;
+}
 
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact img {
+  width: 30px;
+  font-family: 'Montserrat', sans-serif;
+  height: 30px;
+  margin: 0px;
+  padding: 0px; 
+}
+
+.contact p {
+  font-size: 2rem;
+  color: black;
+}
+
+.lang_btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.lang_btn button {
+  padding: 5px 10px;
+  cursor: pointer;
 }

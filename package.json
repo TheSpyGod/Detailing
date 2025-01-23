@@ -1,18 +1,20 @@
 {
-  "homepage":"https://thespygod.github.io/Detailing",
+  "homepage": "https://thespygod.github.io/Detailing",
   "name": "detailing",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
     "dompurify": "^3.2.3",
+    "i18next": "^24.2.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-i18next": "^15.4.0",
     "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",

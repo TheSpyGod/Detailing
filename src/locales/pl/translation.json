@@ -1,0 +1,67 @@
+{
+    "title": "DETAILING",
+    "book_button": "ZAREZERWUJ TERMIN",
+    "offers": "Nasze Oferty",
+    "contact": "Kontakt",
+    "records": [
+    {
+      "title": "Komplet",
+      "price": "60 €",
+      "time": "Czas: 1 Dzień",
+      "details": [
+        "Mycie nadwozia.",
+        "Odkurzania wnętrza wraz z bagażnikiem.",
+        "Czyszczenie kokpitu.",
+        "Mycie wszystkich szyb wewnątrz i zewnątrz.",
+        "Czyszczenie wewnętrznych elementów plastikowych.",
+        "Mycie dywaników.",
+        "Dressing na opony.",
+        "Aplikacja quick detailera / nabłyszczenie karoserii."
+      ]
+    },
+    {
+      "title": "Pro",
+      "price": "80 €",
+      "time": "Czas: 2 Dni",
+      "details": [
+        "Mycie nadwozia.",
+        "Odkurzanie wnętrza wraz z bagażnikiem.",
+        "Czyszczenie kokpitu.",
+        "Mycie wszystkich szyb wewnątrz i zewnątrz.",
+        "Czyszczenie wewnętrznych elementów plastikowych.",
+        "Mycie dywaników.",
+        "Dressing opon.",
+        "Zabezpieczenie lakieru twardym woskiem (ochrona do 6 miesięcy).",
+        "Mycie felg.",
+        "Niewidzialna wycieraczka."
+      ]
+    },
+    {
+      "title": "Pro +",
+      "price": "90 €",
+      "time": "Czas: 2 Dni",
+      "details": [
+        "Mycie nadwozia.",
+        "Odkurzanie wnętrza wraz z bagażnikiem.",
+        "Czyszczenie kokpitu.",
+        "Mycie wszystkich szyb wewnątrz i zewnątrz.",
+        "Czyszczenie wewnętrznych elementów plastikowych.",
+        "Mycie dywaników.",
+        "Dressing opon.",
+        "Zabezpieczenie lakieru twardym woskiem (ochrona do 12 miesięcy).",
+        "Mycie felg.",
+        "Niewidzialna wycieraczka."
+      ]
+    },
+    {
+      "title": "Lorey",
+      "price": "Cena: 67.45",
+      "time": "2 dni",
+      "details": [
+        "Detailed Feature 1.",
+        "Feature 2.",
+        "Feature 3."
+      ]
+    }
+  ]
+  }
