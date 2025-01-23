@@ -2,18 +2,25 @@ import React, {useState, useEffect} from 'react';
 import video from './smoke.mp4';
 import './App.css';
 import Card from './Card';
-import { readFile } from './FileReader';
+import { processRecords } from './FileReader';
 import logo from './logo.svg';
 import DOMPurify from 'dompurify';
 
 function App() {
   const [cards, setData] = useState([]);
 
+
+  const records = [
+    ["Tuning", "Cena: 67.45", "2days", ["Detailed Feature 1.", "Feature 2.", "Feature 3."]],
+    ["Cleaning", "Cena: 67.45", "2days", ["Detailed Feature 1.", "Feature 2.", "Feature 3."]],
+    ["Lorey", "Cena: 67.45", "2days", ["Detailed Feature 1.", "Feature 2.", "Feature 3."]],
+    ["Lorey", "Cena: 67.45", "2days", ["Detailed Feature 1.", "Feature 2.", "Feature 3."]],
+    ["Lorey", "Cena: 67.45", "2days", ["Detailed Feature 1.", "Feature 2.", "Feature 3."]]
+  ];
+
   useEffect(() => {
-    const fileName = 'cards.txt';
-    readFile(fileName).then(result => {
-      setData(result)
-    });
+    const processedRecords = processRecords(records);
+    setData(processedRecords);
   }, []);
 
   return (
