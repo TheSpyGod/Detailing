@@ -1,5 +1,0 @@
-Tuning;Cena: 67.45;2days;Detailed Feature 1. Feature 2. Feature 3.
-Cleaning;Cena: 67.45;2days;Detailed Feature 1. Feature 2. Feature 3.
-Lorey;Cena: 67.45;2days;Detailed Feature 1. Feature 2. Feature 3.
-Lorey;Cena: 67.45;2days;Detailed Feature 1. Feature 2. Feature 3.
-Lorey;Cena: 67.45;2days;Detailed Feature 1. Feature 2. Feature 3.
