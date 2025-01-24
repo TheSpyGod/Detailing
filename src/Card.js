@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from 'react-i18next';
 
-function Card({ title, price, description, detailedDescription }) {
+function Card({ title, price, description, detailedDescription, scrollToPage}) {
     const { t } = useTranslation();
     return (
         <div className="card">
@@ -9,7 +9,7 @@ function Card({ title, price, description, detailedDescription }) {
             <p>{description}</p>
             <p>{price}</p>
             <p>{detailedDescription}</p>
-            <button>{t('book_button')}</button>
+            <button onClick={() => scrollToPage(3.51)}>{t('book_button')}</button>
         </div>
     );
 

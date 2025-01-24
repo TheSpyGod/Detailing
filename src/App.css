@@ -49,10 +49,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url('./car.jpg');
-  background-size: cover;
-  background-position: center;
-  overflow: hidden; 
+  overflow: hidden;
+  background:transparent;
 }
 
 
@@ -215,6 +213,7 @@ footer img {
 
 .contact {
   display: flex;
+  height: 100vh;
   flex-direction: column;
   align-items: center;
   background-image:linear-gradient(to bottom, black, grey, white, white) ;
@@ -313,4 +312,33 @@ footer img {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
   background:linear-gradient(to right, transparent, black, transparent); 
   padding: 10px; 
+}
+
+.background-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* Ensures it spans across both pages */
+  max-width: 100%;
+  max-height: 100%;
+  background-image: url('./car.jpg');
+  background-size: cover;
+  background-position: center center;
+  z-index: -1; /* Keeps it behind the video and other content */
+  object-fit: cover; /* Ensures the image fills the space correctly */
+}
+
+#slideshow {
+  width: 50%;
+  opacity: 1;
+  border-radius: 10%;
+}
+
+#slideshow:hover{
+  cursor: pointer;
+}
+
+.background-layer video {
+  opacity: 0.3;
 }

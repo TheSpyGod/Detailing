@@ -1,0 +1,69 @@
+{
+    "title": "DETALLADO",
+    "book_button": "RESERVAR UNA CITA",
+    "offers": "Nuestras Ofertas",
+    "page": "Nuestra Página",
+    "quote": "Descubre nuestros últimos logros",
+    "contact": "Contacto",
+    "records": [
+      {
+        "title": "Completo",
+        "price": "60 €",
+        "time": "Tiempo: 1 Día",
+        "details": [
+          "Lavado de carrocería.",
+          "Aspirado interior, incluyendo el maletero.",
+          "Limpieza de cockpit.",
+          "Lavado de todas las ventanas por dentro y por fuera.",
+          "Limpieza de elementos plásticos internos.",
+          "Lavado de alfombrillas.",
+          "Tratamiento de neumáticos.",
+          "Aplicación de quick detailer / brillo de carrocería."
+        ]
+      },
+      {
+        "title": "Pro",
+        "price": "80 €",
+        "time": "Tiempo: 2 Días",
+        "details": [
+          "Lavado de carrocería.",
+          "Aspirado interior, incluyendo el maletero.",
+          "Limpieza de cockpit.",
+          "Lavado de todas las ventanas por dentro y por fuera.",
+          "Limpieza de elementos plásticos internos.",
+          "Lavado de alfombrillas.",
+          "Tratamiento de neumáticos.",
+          "Protección de la pintura con cera dura (protección hasta 6 meses).",
+          "Lavado de llantas.",
+          "Limpiaparabrisas invisible."
+        ]
+      },
+      {
+        "title": "Pro +",
+        "price": "90 €",
+        "time": "Tiempo: 2 Días",
+        "details": [
+          "Lavado de carrocería.",
+          "Aspirado interior, incluyendo el maletero.",
+          "Limpieza de cockpit.",
+          "Lavado de todas las ventanas por dentro y por fuera.",
+          "Limpieza de elementos plásticos internos.",
+          "Lavado de alfombrillas.",
+          "Tratamiento de neumáticos.",
+          "Protección de la pintura con cera dura (protección hasta 12 meses).",
+          "Lavado de llantas.",
+          "Limpiaparabrisas invisible."
+        ]
+      },
+      {
+        "title": "Lorey",
+        "price": "Precio: 67.45 €",
+        "time": "2 días",
+        "details": [
+          "Característica detallada 1.",
+          "Característica 2.",
+          "Característica 3."
+        ]
+      }
+    ]
+  }
