@@ -1,21 +1,25 @@
 {
   "files": {
-    "main.css": "/Detailing/static/css/main.5fcd6a31.css",
-    "main.js": "/Detailing/static/js/main.5271c7d1.js",
+    "main.css": "/Detailing/static/css/main.1939ebb3.css",
+    "main.js": "/Detailing/static/js/main.1854f500.js",
     "static/js/488.31f5faa1.chunk.js": "/Detailing/static/js/488.31f5faa1.chunk.js",
     "static/media/smoke2.mp4": "/Detailing/static/media/smoke2.6c83b1774886ebbcbbf2.mp4",
-    "static/media/smoke.mp4": "/Detailing/static/media/smoke.3391d32072727038320a.mp4",
     "static/media/leather.jpg": "/Detailing/static/media/leather.e2b580f7bab135c8d39d.jpg",
-    "static/media/logo.svg": "/Detailing/static/media/logo.0fd4b07fb1c542436a85e7c5c5372d43.svg",
+    "static/media/exterior1.jpg": "/Detailing/static/media/exterior1.f0b4a23837596ac72b2e.jpg",
+    "static/media/exterior2.jpg": "/Detailing/static/media/exterior2.3e0152370776bd3a987f.jpg",
+    "static/media/interior2.jpg": "/Detailing/static/media/interior2.c1f63688c6185592ef66.jpg",
+    "static/media/interior1.jpg": "/Detailing/static/media/interior1.a699366021ade0d3dbd3.jpg",
+    "static/media/exterior4.jpg": "/Detailing/static/media/exterior4.18b33c700aa36d4bef75.jpg",
+    "static/media/exterior3.jpg": "/Detailing/static/media/exterior3.ffa487c8325db294d72b.jpg",
     "static/media/car.jpg": "/Detailing/static/media/car.e1d962abf50a30797724.jpg",
     "static/media/carbon.jpg": "/Detailing/static/media/carbon.e33132c9de3daf7da371.jpg",
     "index.html": "/Detailing/index.html",
-    "main.5fcd6a31.css.map": "/Detailing/static/css/main.5fcd6a31.css.map",
-    "main.5271c7d1.js.map": "/Detailing/static/js/main.5271c7d1.js.map",
+    "main.1939ebb3.css.map": "/Detailing/static/css/main.1939ebb3.css.map",
+    "main.1854f500.js.map": "/Detailing/static/js/main.1854f500.js.map",
     "488.31f5faa1.chunk.js.map": "/Detailing/static/js/488.31f5faa1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5fcd6a31.css",
-    "static/js/main.5271c7d1.js"
+    "static/css/main.1939ebb3.css",
+    "static/js/main.1854f500.js"
   ]
 }
