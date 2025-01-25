@@ -7,52 +7,207 @@
     "contact": "Contacto",
     "records": [
       {
-        "title": "Completo",
-        "price": "60 €",
+        "title": "Mini Valet",
+        "price": "50 €",
         "time": "Tiempo: 1 Día",
         "details": [
-          "Lavado de carrocería.",
+          "Lavado exterior.",
           "Aspirado interior, incluyendo el maletero.",
-          "Limpieza de cockpit.",
-          "Lavado de todas las ventanas por dentro y por fuera.",
-          "Limpieza de elementos plásticos internos.",
+          "Limpieza del tablero.",
+          "Limpieza de todas las ventanas por dentro y por fuera.",
+          "Limpieza de elementos plásticos interiores.",
           "Lavado de alfombrillas.",
           "Tratamiento de neumáticos.",
           "Aplicación de quick detailer / brillo de carrocería."
         ]
       },
       {
-        "title": "Pro",
-        "price": "80 €",
+        "title": "Full Valet",
+        "price": "80 - 100 €",
         "time": "Tiempo: 2 Días",
         "details": [
-          "Lavado de carrocería.",
+          "Lavado exterior.",
           "Aspirado interior, incluyendo el maletero.",
-          "Limpieza de cockpit.",
-          "Lavado de todas las ventanas por dentro y por fuera.",
-          "Limpieza de elementos plásticos internos.",
+          "Limpieza del tablero.",
+          "Limpieza de todas las ventanas por dentro y por fuera.",
+          "Limpieza de elementos plásticos interiores.",
           "Lavado de alfombrillas.",
           "Tratamiento de neumáticos.",
           "Protección de la pintura con cera dura (protección hasta 6 meses).",
-          "Lavado de llantas.",
-          "Limpiaparabrisas invisible."
+          "Limpieza de llantas.",
+          "Aplicación de limpiaparabrisas invisible."
         ]
       },
       {
-        "title": "Pro +",
-        "price": "90 €",
+        "title": "Full Valet +",
+        "price": "150 €",
         "time": "Tiempo: 2 Días",
         "details": [
-          "Lavado de carrocería.",
+          "Lavado exterior.",
           "Aspirado interior, incluyendo el maletero.",
-          "Limpieza de cockpit.",
-          "Lavado de todas las ventanas por dentro y por fuera.",
-          "Limpieza de elementos plásticos internos.",
+          "Limpieza del tablero.",
+          "Limpieza de todas las ventanas por dentro y por fuera.",
+          "Limpieza de elementos plásticos interiores.",
           "Lavado de alfombrillas.",
           "Tratamiento de neumáticos.",
-          "Protección de la pintura con cera dura (protección hasta 12 meses).",
-          "Lavado de llantas.",
-          "Limpiaparabrisas invisible."
+          "Protección de la pintura con recubrimiento de polímero (protección hasta 12 meses).",
+          "Limpieza de llantas.",
+          "Aplicación de limpiaparabrisas invisible."
+        ]
+      },
+      {
+        "title": "Lavado Estándar",
+        "price": "25 €",
+        "time": "Tiempo: 2 Días",
+        "details": [
+          "Lavado exterior minucioso, prelavado de ruedas e insectos, secado de carrocería, brillo de neumáticos, aplicación de cera hidro."
+        ]
+      },
+      {
+        "title": "Lavado Premium",
+        "price": "30 €",
+        "time": "Tiempo: 2 Días",
+        "details": [
+          "Lavado exterior minucioso (método de dos cubos), limpieza de marcos de puertas, limpieza de ruedas con descontaminante férrico, brillo de neumáticos, secado de carrocería, aplicación de cera hidro."
+        ]
+      },
+      {
+        "title": "Lavado Detallado",
+        "price": "60 €",
+        "time": "Tiempo: 2 Días",
+        "details": [
+          "Lavado exterior minucioso (método de dos cubos) con cepillado, limpieza de marcos de puertas, limpieza de ruedas con descontaminante férrico, eliminación de partículas de hierro y alquitrán de la carrocería, brillo de neumáticos, secado de carrocería, aplicación de cera líquida."
+        ]
+      },
+      {
+        "title": "Quick Detailer",
+        "price": "10 - 15 €",
+        "time": "Tiempo: 2 Días",
+        "details": [
+          "Rápida mejora del brillo de la carrocería. Restaura el brillo y la profundidad del color."
+        ]
+      },
+      {
+        "title": "Protección de carrocería con cera dura hasta 6 meses",
+        "price": "50 - 70 €",
+        "time": "Tiempo: 2 Días",
+        "details": [
+          ""
+        ]
+      },
+      {
+        "title": "Revestimiento de polímero",
+        "price": "80 €",
+        "time": "Tiempo: 2 Días",
+        "details": [
+          "Protección de carrocería con revestimiento de polímero hasta 12 meses."
+        ]
+      },
+      {
+        "title": "Revestimiento cerámico 3 año",
+        "price": "350 - 500 €",
+        "time": "Tiempo: 2 Días",
+        "details": [
+         "Corrección y protección de pintura con Ulcoat One + Hydro HD coating.",
+          "Periodo de protección: 3 años."
+        ]
+      },
+      {
+        "title": "Revestimiento cerámico 4 año",
+        "price": "500 - 750 €",
+        "time": "Tiempo: 2 Días",
+        "details": [
+         "Corrección y protección de pintura con Aqua Graphene Coating.",
+          "Periodo de protección: 4 años."
+        ]
+      },
+      {
+        "title": "Revestimiento cerámico 5 año",
+        "price": "850 - 1100 €",
+        "time": "Tiempo: 2 Días",
+        "details": [
+         "Corrección y protección de pintura con Ultracoat Premium Bond 9h coating.",
+          "Periodo de protección: 5 años."
+        ]
+      },
+      {
+        "title": "Eliminación de cal de carrocería y ventanas",
+        "price": "60 - 75 €",
+        "time": "Tiempo: 2 Días",
+        "details": [
+         "Restauración de la suavidad y claridad de la pintura y ventanas mediante la eliminación de depósitos de cal con métodos seguros."
+        ]
+      },
+      {
+        "title": "Descontaminación de carrocería",
+        "price": "60 - 75 €",
+        "time": "Tiempo: 2 Días",
+        "details": [
+         "Limpieza de la pintura de contaminantes, restaurando su suavidad y brillo."
+        ]
+      },
+      {
+        "title": "Servicio completo (desbloqueo) de revestimiento cerámico",
+        "price": "85 - 115 €",
+        "time": "Tiempo: 2 Días",
+        "details": [
+        "Mantenimiento completo del revestimiento cerámico, restaurando sus propiedades hidrofóbicas y protectoras."
+        ]
+      },
+      {
+        "title": "Limpieza básica de tapicería",
+        "price": "65 - 85 €",
+        "time": "Tiempo: 2 Días",
+        "details": [
+        "Incluye limpieza de asientos, asiento trasero y paneles de puertas para un coche de 5 plazas."
+        ]
+      },
+      {
+        "title": "Limpieza de asiento (por asiento)",
+        "price": "20 €",
+        "time": "Tiempo: 2 Días",
+        "details": [
+        "Precio por la limpieza de un asiento."
+        ]
+      },
+      {
+        "title": "Limpieza del suelo",
+        "price": "30 - 40 €",
+        "time": "Tiempo: 2 Días",
+        "details": [
+        "Limpieza del suelo sin retirar los asientos."
+        ]
+      },
+      {
+        "title": "Limpieza de alfombrillas",
+        "price": "12 €",
+        "time": "Tiempo: 2 Días",
+        "details": [
+        "Limpieza de alfombrillas del coche."
+        ]
+      },
+      {
+        "title": "Refrescado del maletero",
+        "price": "15 €",
+        "time": "Tiempo: 2 Días",
+        "details": [
+        "Refrescado del área del maletero del coche."
+        ]
+      },
+      {
+        "title": "Limpieza de tapicería de cuero",
+        "price": "65 - 75 €",
+        "time": "Tiempo: 2 Días",
+        "details": [
+        "Limpieza de asientos de cuero, paneles de puertas, volante, reposacabezas y palanca de cambios con productos especiales y un cepillo para cuero."
+        ]
+      },
+      {
+        "title": "Limpieza interior",
+        "price": "desde 20 €",
+        "time": "Tiempo: 2 Días",
+        "details": [
+        "Limpieza completa del interior."
         ]
       }
     ]

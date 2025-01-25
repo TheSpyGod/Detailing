@@ -364,7 +364,7 @@
     background-position: center center;
     z-index: -1; 
     object-fit: cover; 
-    transition: background-image 5s ease-in;
+    transition: background-image 1s ease-in;
   } 
 
   #slideshow {

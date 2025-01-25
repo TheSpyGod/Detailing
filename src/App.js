@@ -101,7 +101,6 @@ function App() {
             key={index}
             className="card"
             title={card[0]}
-            description={card[2]}
             price={card[1]} 
             detailedDescription={<span dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(card[3]) }} />}
             scrollToPage={scrollToBottom}
@@ -116,6 +115,7 @@ function App() {
               <h3>
                 <img src={email} alt="Email Logo"/> <br/>
                 marcinjarzebiak59@gmail.com
+                {/*5 Carrer Cervantes , Crevillente, Spain*/}
               </h3>
             </div>
     </div>

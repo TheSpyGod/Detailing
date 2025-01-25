@@ -7,52 +7,205 @@
     "contact": "Kontakt",
     "records": [
     {
-      "title": "Komplet",
-      "price": "60 €",
+      "title": "Mini Valet",
+      "price": "50 €",
       "time": "Czas: 1 Dzień",
       "details": [
-        "Mycie nadwozia.",
-        "Odkurzania wnętrza wraz z bagażnikiem.",
-        "Czyszczenie kokpitu.",
-        "Mycie wszystkich szyb wewnątrz i zewnątrz.",
-        "Czyszczenie wewnętrznych elementów plastikowych.",
-        "Mycie dywaników.",
-        "Dressing na opony.",
-        "Aplikacja quick detailera / nabłyszczenie karoserii."
+        "Mycie zewnętrzne.",
+          "Odkurzanie wnętrza, w tym bagażnika.",
+          "Czyszczenie deski rozdzielczej.",
+          "Czyszczenie wszystkich szyb wewnątrz i na zewnątrz.",
+          "Czyszczenie wewnętrznych elementów plastikowych.",
+          "Pranie dywaników.",
+          "Pielęgnacja opon.",
+          "Aplikacja quick detailera / nabłyszczacza karoserii."
       ]
     },
     {
-      "title": "Pro",
+      "title": "Full Valet",
+      "price": "80 - 100 €",
+      "time": "Czas: 2 Dni",
+      "details": [
+        "Mycie zewnętrzne.",
+          "Odkurzanie wnętrza, w tym bagażnika.",
+          "Czyszczenie deski rozdzielczej.",
+          "Czyszczenie wszystkich szyb wewnątrz i na zewnątrz.",
+          "Czyszczenie wewnętrznych elementów plastikowych.",
+          "Pranie dywaników.",
+          "Pielęgnacja opon.",
+          "Ochrona lakieru twardym woskiem (ochrona do 6 miesięcy).",
+          "Czyszczenie felg.",
+          "Aplikacja niewidzialnej wycieraczki."
+      ]
+    },
+    {
+      "title": "Full Valet +",
+      "price": "150 €",
+      "time": "Czas: 2 Dni",
+      "details": [
+        "Mycie zewnętrzne.",
+          "Odkurzanie wnętrza, w tym bagażnika.",
+          "Czyszczenie deski rozdzielczej.",
+          "Czyszczenie wszystkich szyb wewnątrz i na zewnątrz.",
+          "Czyszczenie wewnętrznych elementów plastikowych.",
+          "Pranie dywaników.",
+          "Pielęgnacja opon.",
+          "Ochrona lakieru powłoką polimerową (ochrona do 12 miesięcy).",
+          "Czyszczenie felg.",
+          "Aplikacja niewidzialnej wycieraczki."
+      ]
+    },
+    {
+      "title": "Standardowe mycie",
+      "price": "25 €",
+      "time": "Czas: 2 dni",
+      "details": [
+        "Dokładne mycie zewnętrzne, wstępne mycie kół i owadów, suszenie nadwozia, połysk opon, nałożenie wosku hydro."
+      ]
+    },
+    {
+      "title": "Mycie Premium",
+      "price": "30 €",
+      "time": "Czas: 2 dni",
+      "details": [
+        "Dokładne mycie zewnętrzne (metoda dwóch wiader), czyszczenie framug drzwi, czyszczenie kół z odkamieniaczem żelazowym, połysk opon, suszenie nadwozia, nałożenie wosku hydro."
+      ]
+    },
+    {
+      "title": "Mycie Detaliczne",
+      "price": "60 €",
+      "time": "Czas: 2 dni",
+      "details": [
+        "Dokładne mycie zewnętrzne (metoda dwóch wiader) z szczotkowaniem, czyszczenie framug drzwi, czyszczenie kół z odkamieniaczem żelazowym, usunięcie cząsteczek żelaza i smoły z nadwozia, połysk opon, suszenie nadwozia, nałożenie wosku w płynie."
+      ]
+    },
+    {
+      "title": "Quick Detailer",
+      "price": "10 - 15 €",
+      "time": "Czas: 2 dni",
+      "details": [
+        "Szybkie poprawienie połysku nadwozia. Przywraca połysk i głębię koloru."
+      ]
+    },
+    {
+      "title": "Ochrona nadwozia woskiem twardym do 6 miesięcy",
+      "price": "50 - 70 €",
+      "time": "Czas: 2 dni",
+      "details": []
+    },
+    {
+      "title": "Powłoka polimerowa",
       "price": "80 €",
-      "time": "Czas: 2 Dni",
+      "time": "Czas: 2 dni",
       "details": [
-        "Mycie nadwozia.",
-        "Odkurzanie wnętrza wraz z bagażnikiem.",
-        "Czyszczenie kokpitu.",
-        "Mycie wszystkich szyb wewnątrz i zewnątrz.",
-        "Czyszczenie wewnętrznych elementów plastikowych.",
-        "Mycie dywaników.",
-        "Dressing opon.",
-        "Zabezpieczenie lakieru twardym woskiem (ochrona do 6 miesięcy).",
-        "Mycie felg.",
-        "Niewidzialna wycieraczka."
+        "Ochrona nadwozia powłoką polimerową do 12 miesięcy."
       ]
     },
     {
-      "title": "Pro +",
-      "price": "90 €",
-      "time": "Czas: 2 Dni",
+      "title": "Powłoka ceramiczna 3 lata",
+      "price": "350 - 500 €",
+      "time": "Czas: 2 dni",
       "details": [
-        "Mycie nadwozia.",
-        "Odkurzanie wnętrza wraz z bagażnikiem.",
-        "Czyszczenie kokpitu.",
-        "Mycie wszystkich szyb wewnątrz i zewnątrz.",
-        "Czyszczenie wewnętrznych elementów plastikowych.",
-        "Mycie dywaników.",
-        "Dressing opon.",
-        "Zabezpieczenie lakieru twardym woskiem (ochrona do 12 miesięcy).",
-        "Mycie felg.",
-        "Niewidzialna wycieraczka."
+        "Korekta i ochrona lakieru powłoką Ulcoat One + Hydro HD.",
+        "Okres ochrony: 3 lata."
+      ]
+    },
+    {
+      "title": "Powłoka ceramiczna 4 lata",
+      "price": "500 - 750 €",
+      "time": "Czas: 2 dni",
+      "details": [
+        "Korekta i ochrona lakieru powłoką Aqua Graphene.",
+        "Okres ochrony: 4 lata."
+      ]
+    },
+    {
+      "title": "Powłoka ceramiczna 5 lat",
+      "price": "850 - 1100 €",
+      "time": "Czas: 2 dni",
+      "details": [
+        "Korekta i ochrona lakieru powłoką Ultracoat Premium Bond 9h.",
+        "Okres ochrony: 5 lat."
+      ]
+    },
+    {
+      "title": "Usuwanie kamienia z nadwozia i szyb",
+      "price": "60 - 75 €",
+      "time": "Czas: 2 dni",
+      "details": [
+        "Restauracja gładkości i przejrzystości lakieru oraz szyb poprzez usunięcie osadów kamienia za pomocą bezpiecznych metod."
+      ]
+    },
+    {
+      "title": "Odkamienianie nadwozia",
+      "price": "60 - 75 €",
+      "time": "Czas: 2 dni",
+      "details": [
+        "Czyszczenie lakieru z zanieczyszczeń, przywracając jego gładkość i połysk."
+      ]
+    },
+    {
+      "title": "Kompleksowy serwis (odblokowanie) powłoki ceramicznej",
+      "price": "85 - 115 €",
+      "time": "Czas: 2 dni",
+      "details": [
+        "Kompleksowa konserwacja powłoki ceramicznej, przywracając jej właściwości hydrofobowe i ochronne."
+      ]
+    },
+    {
+      "title": "Podstawowe czyszczenie tapicerki",
+      "price": "65 - 85 €",
+      "time": "Czas: 2 dni",
+      "details": [
+        "W cenie czyszczenie siedzeń, tylnej kanapy oraz paneli drzwiowych w samochodzie 5-osobowym."
+      ]
+    },
+    {
+      "title": "Czyszczenie siedzenia (za siedzenie)",
+      "price": "20 €",
+      "time": "Czas: 2 dni",
+      "details": [
+        "Cena za czyszczenie jednego siedzenia."
+      ]
+    },
+    {
+      "title": "Czyszczenie podłogi",
+      "price": "30 - 40 €",
+      "time": "Czas: 2 dni",
+      "details": [
+        "Czyszczenie podłogi bez demontażu siedzeń."
+      ]
+    },
+    {
+      "title": "Czyszczenie dywaników",
+      "price": "12 €",
+      "time": "Czas: 2 dni",
+      "details": [
+        "Czyszczenie dywaników samochodowych."
+      ]
+    },
+    {
+      "title": "Odświeżenie bagażnika",
+      "price": "15 €",
+      "time": "Czas: 2 dni",
+      "details": [
+        "Odświeżenie przestrzeni bagażnika samochodu."
+      ]
+    },
+    {
+      "title": "Czyszczenie tapicerki skórzanej",
+      "price": "65 - 75 €",
+      "time": "Czas: 2 dni",
+      "details": [
+        "Czyszczenie skórzanych siedzeń, paneli drzwiowych, kierownicy, zagłówków i gałki zmiany biegów przy użyciu specjalnych produktów i szczotki do skóry."
+      ]
+    },
+    {
+      "title": "Czyszczenie wnętrza",
+      "price": "od 20 €",
+      "time": "Czas: 2 dni",
+      "details": [
+        "Kompleksowe czyszczenie wnętrza."
       ]
     }
   ]
