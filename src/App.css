@@ -1,403 +1,398 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-body, html {
-  height: 100%;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  scroll-behavior: smooth;
-}
+  body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+  }
 
-.App {
-  text-align: center;
-  display: flex;
-  transition: all 0.5s ease-in-out;
-  flex-direction: column;
-  min-height: 100vh;
-  height: auto;
-  overflow: visible;
-}
+  .App {
+    text-align: center;
+    display: flex;
+    transition: all 0.5s ease-in-out;
+    flex-direction: column;
+    min-height: 100vh;
+    height: auto;
+    overflow: visible;
+  }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
 
-.title-card h1 {
-  position: relative;
-  color: white;
-  z-index: 3;
-  background-image: linear-gradient(to right, transparent, black, transparent);
-  font-size: 8vw; 
-  font-family: 'Montserrat', sans-serif;
-  padding: 20px;
-  text-align: center;
-  color: rgba(256, 256, 256, 0.7);
-  width: 100%;
-  margin: 0; 
-  pointer-events: none;
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2), 0 0 30px rgba(255, 255, 255, 0.8);
-  animation: flicker 5s infinite;
-  
-}
-
-.title-card {
-  position: relative;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  background:transparent;
-}
-
-
-.title-card video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0.3; 
-  z-index: 1;
-}
-
-.title-card button {
-  position: relative;
-  z-index: 2;
-  margin-top: 20px; 
-  padding: 10px 20px;
-  background-color: #fff0;
-  color: white;
-  border: none;
-  background-image: linear-gradient(to right, transparent, black, transparent);
-  font-size: 1.5rem;
-  font-weight: normal;
-  cursor: pointer;
-}
-
-.maincontent {
-  padding: 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
-  background: linear-gradient(to bottom, #000000, #310000, #570000, #820000, #a70e0e);
-  min-height: auto;
-  height: auto;
-  flex-wrap: wrap;
-  position: relative;
-  overflow: visible;
-  width: 100%; 
-}
-
-.maincontent::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: url('carbon.jpg') repeat;
-  opacity: 0.09; 
-  z-index: 1;
-}
-
-.maincontent > * {
-  position: relative;
-  z-index: 2;
-}
-
-.maincontent button {
-  transition: background 0.3s ease-in;
-  color: white; 
-  border: none; 
-  cursor: pointer;
-  font-weight: normal;
-  width: auto;
-  padding: 10px 20px;
-  border-radius: 15px;
-  font-size: 1rem;
-  font-weight: normal;
-  background: #333;
-  background-position: 0 0, 10px 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), -2px -2px 4px rgba(255, 255, 255, 0.3);
-  
-}
-
-.card {
-  position: relative;
-  margin: 20px;
-  padding: 20px;
-  color: white;
-  font-size: 70%;
-  flex: 1 1 calc(33.333% - 40px);
-  max-width: calc(33.333% - 40px);
-  min-width: 250px;
-  background: linear-gradient(to bottom,rgb(19, 19, 19), #000000);
-  border-radius: 8%;
-  box-sizing: border-box;
-  height: 100%;
-  overflow: visible;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.4);
-}
-
-.card::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: url('leather.jpg') repeat;
-  opacity: 0.1; 
-  border-radius: 8%; 
-  z-index: 1;
-}
-
-.card > * {
-  position: relative;
-  z-index: 2;
-}
-
-.card p {
-  font-size: 1.2rem;
-  color: #333;
-  background: linear-gradient(to right, #aaa, #ccc);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-shadow: 
-    1px 1px 2px rgba(0, 0, 0, 0.8), 
-    -1px -1px 2px rgba(255, 255, 255, 0.8), 
-    inset 1px 1px 2px rgba(0, 0, 0, 0.8), 
-    inset -1px -1px 2px rgba(255, 255, 255, 0.8);
-}
-
-.card h3 { 
-  font-size: 1.5rem;
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2), 0 0 30px rgba(255, 255, 255, 0.8);
-  animation: flicker 5s infinite;
-}
-
-.maincontent button:hover {
-  background: linear-gradient(to right, #4db800, #078400); 
-}
-
-.banner {
-  margin: 0px;
-  color:white;
-  background: linear-gradient(to top, black, rgb(41, 41, 41), rgb(0, 0, 0));
-}
-
-.banner h1 {
-  margin:0px;
-  font-family: 'Montserrat', sans-serif;
-}
-
-@keyframes flicker {
-  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  .title-card h1 {
+    position: relative;
+    color: white;
+    z-index: 3;
+    background-image: linear-gradient(to right, transparent, black, transparent);
+    font-size: 8vw; 
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    text-align: center;
+    color: rgba(256, 256, 256, 0.7);
+    width: 100%;
+    margin: 0; 
+    pointer-events: none;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2), 0 0 30px rgba(255, 255, 255, 0.8);
+    animation: flicker 5s infinite;
+    
   }
-  20%, 24%, 55% {
-    text-shadow: none;
+
+  .title-card {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background:transparent;
   }
-}
 
-footer img {
-  width: 50px;
-  height: 50px;
-  margin: 10px;
-}
 
-.contact {
-  height: 100vh; 
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(to bottom, black, transparent, white, transparent); /* Gradient background */
-  position: relative;
-}
-
-.contact::before {
-  content: ""; 
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #059dc7;
-  opacity: 0.2; 
-  z-index: -1; 
-}
-
-.content {
-  z-index: 1; 
-  color: white;
-  text-align: center;
-  padding: 20px;
-}
-
-.contact img {
-  width: 30px;
-  font-family: 'Montserrat', sans-serif;
-  height: 30px;
-  margin: 0px;
-  padding: 0px; 
-}
-
-.contact p {
-  font-size: 2rem;
-  font-family: 'Montserrat', sans-serif;
-  color: black;
-}
-
-.contact h1 {
-  font-size: 4rem;
-  font-family: 'Montserrat', sans-serif;
-  color: white;
-}
-
-.lang_btn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  display: flex;
-  gap: 10px;
-}
-
-.lang_btn button {
-  padding: 5px 10px;
-  cursor: pointer;
-}
-
-.facebook-feed {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  position: relative; 
-  overflow: hidden;
-  width: 100%;
-}
-
-.facebook-feed::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to right, black, rgb(52, 52, 52), white); 
-  z-index: 0; 
-}
-
-.facebook-feed::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: url('carbon.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  z-index: 1;
-  opacity: 0.5;
-}
-
-.facebook-feed .video-container {
-  flex: 1; 
-  position: relative;
-}
-
-.facebook-feed video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover; 
-  z-index: 2; 
-  opacity:0.2;
-}
-
-.facebook-feed .fb-page {
-  position: relative;
-  z-index: 3;
-}
-
-.fb-page {
-  flex:1;
-}
-
-.facebook-feed h1 {
-  position: relative;
-  z-index: 4; 
-  color: white; 
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
-  background:linear-gradient(to right, transparent, black, transparent); 
-  padding: 10px; 
-}
-
-.background-layer {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  max-width: 100%;
-  max-height: 100%;
-  background-image: url('./car.jpg');
-  background-size: cover;
-  background-position: center center;
-  z-index: -1; 
-  object-fit: cover; 
-  transition: background-image 5s ease-in;
-} 
-
-.page2-background {
-  transition: background-image 5s ease-in;
-  background-image: url('./slideshow/interior2.jpg');
-}
-
-#slideshow {
-  width: 50%;
-  opacity: 1;
-  border-radius: 10%;
-}
-
-#slideshow:hover{
-  cursor: pointer;
-}
-
-.background-layer video {
-  opacity: 0.3;
-}
-
-@media (max-width: 1258px) {
-  .card p {
-    font-size: 1.1rem;
+  .title-card video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.3; 
+    z-index: 1;
   }
+
+  .title-card button {
+    position: relative;
+    z-index: 2;
+    margin-top: 20px; 
+    padding: 10px 20px;
+    background-color: #fff0;
+    color: white;
+    border: none;
+    background-image: linear-gradient(to right, transparent, black, transparent);
+    font-size: 1.5rem;
+    font-weight: normal;
+    cursor: pointer;
+  }
+
+  .maincontent {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    background: linear-gradient(to bottom, #000000, #310000, #570000, #820000, #a70e0e);
+    min-height: auto;
+    height: auto;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: visible;
+    width: 100%; 
+  }
+
+  .maincontent::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('carbon.jpg') repeat;
+    opacity: 0.09; 
+    z-index: 1;
+  }
+
+  .maincontent > * {
+    position: relative;
+    z-index: 2;
+  }
+
+  .maincontent button {
+    transition: background 0.3s ease-in;
+    color: white; 
+    border: none; 
+    cursor: pointer;
+    font-weight: normal;
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 1rem;
+    font-weight: normal;
+    background: #333;
+    background-position: 0 0, 10px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), -2px -2px 4px rgba(255, 255, 255, 0.3);
+    
+  }
+
   .card {
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    font-size: 70%;
+    flex: 1 1 calc(33.333% - 40px);
+    max-width: calc(33.333% - 40px);
+    min-width: 250px;
+    background: linear-gradient(to bottom,rgb(19, 19, 19), #000000);
+    border-radius: 8%;
+    box-sizing: border-box;
+    height: 100%;
+    overflow: visible;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
   }
-}
 
-@media (max-width: 951px) {
+  .card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('leather.jpg') repeat;
+    opacity: 0.1; 
+    border-radius: 8%; 
+    z-index: 1;
+  }
+
+  .card > * {
+    position: relative;
+    z-index: 2;
+  }
+
   .card p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    color: #333;
+    background: linear-gradient(to right, #aaa, #ccc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 
+      1px 1px 2px rgba(0, 0, 0, 0.8), 
+      -1px -1px 2px rgba(255, 255, 255, 0.8), 
+      inset 1px 1px 2px rgba(0, 0, 0, 0.8), 
+      inset -1px -1px 2px rgba(255, 255, 255, 0.8);
   }
-  .card {
+
+  .card h3 { 
+    font-size: 1.5rem;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2), 0 0 30px rgba(255, 255, 255, 0.8);
+    animation: flicker 5s infinite;
   }
-}
+
+  .maincontent button:hover {
+    background: linear-gradient(to right, #4db800, #078400); 
+  }
+
+  .banner {
+    margin: 0px;
+    color:white;
+    background: linear-gradient(to top, black, rgb(41, 41, 41), rgb(0, 0, 0));
+  }
+
+  .banner h1 {
+    margin:0px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  @keyframes flicker {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2), 0 0 30px rgba(255, 255, 255, 0.8);
+    }
+    20%, 24%, 55% {
+      text-shadow: none;
+    }
+  }
+
+  footer img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+  }
+
+  .contact {
+    height: 100vh; 
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, black, transparent, white, transparent); /* Gradient background */
+    position: relative;
+  }
+
+  .contact::before {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #059dc7;
+    opacity: 0.2; 
+    z-index: -1; 
+  }
+
+  .content {
+    z-index: 1; 
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .contact img {
+    width: 30px;
+    font-family: 'Montserrat', sans-serif;
+    height: 30px;
+    margin: 0px;
+    padding: 0px; 
+  }
+
+  .contact p {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+  }
+
+  .contact h1 {
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
+
+  .lang_btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+  }
+
+  .lang_btn button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  .facebook-feed {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative; 
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .facebook-feed::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, black, rgb(52, 52, 52), white); 
+    z-index: 0; 
+  }
+
+  .facebook-feed::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('carbon.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+    opacity: 0.5;
+  }
+
+  .facebook-feed .video-container {
+    flex: 1; 
+    position: relative;
+  }
+
+  .facebook-feed video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: 2; 
+    opacity:0.2;
+  }
+
+  .facebook-feed .fb-page {
+    position: relative;
+    z-index: 3;
+  }
+
+  .fb-page {
+    flex:1;
+  }
+
+  .facebook-feed h1 {
+    position: relative;
+    z-index: 4; 
+    color: white; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    background:linear-gradient(to right, transparent, black, transparent); 
+    padding: 10px; 
+  }
+
+  .background-layer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    background-image: url('https://via.placeholder.com/150');
+    background-size: cover;
+    background-position: center center;
+    z-index: -1; 
+    object-fit: cover; 
+    transition: background-image 5s ease-in;
+  } 
+
+  #slideshow {
+    width: 50%;
+    opacity: 1;
+    border-radius: 10%;
+  }
+
+  #slideshow:hover{
+    cursor: pointer;
+  }
+
+  .background-layer video {
+    opacity: 0.3;
+  }
+
+  @media (max-width: 1258px) {
+    .card p {
+      font-size: 1.1rem;
+    }
+    .card {
+    }
+  }
+
+  @media (max-width: 951px) {
+    .card p {
+      font-size: 1.1rem;
+    }
+    .card {
+    }
+  }

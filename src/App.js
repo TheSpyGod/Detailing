@@ -22,7 +22,7 @@ import { useSlideshow } from './Slideshow';
 function App() {
   const { t, i18n } = useTranslation();
   const [cards, setData] = useState([]);
-  const [bgImage, setBgImage] = useState('./car.jpg');
+  const [bgImage, setBgImage] = useState(bgImage1);
 
   useEffect(() => {
     const records = t('records', { returnObjects: true });
@@ -51,6 +51,8 @@ function App() {
         setBgImage(bgImage1); 
       }
     };
+
+    handleScroll();
 
     window.addEventListener('scroll', handleScroll);
 
