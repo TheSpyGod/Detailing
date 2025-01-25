@@ -1,5 +1,5 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
+.gitignore
 # dependencies
 /node_modules
 /.pnp
@@ -21,3 +21,24 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Environment variables
+.env
+
+# Logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Coverage folder
+coverage/
+
+# IDE/Editor folders
+.vscode/
+.idea/
