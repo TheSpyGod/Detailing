@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Detailing/static/css/main.1939ebb3.css",
-    "main.js": "/Detailing/static/js/main.1854f500.js",
+    "main.css": "/Detailing/static/css/main.1e590c24.css",
+    "main.js": "/Detailing/static/js/main.8934ad96.js",
     "static/js/488.31f5faa1.chunk.js": "/Detailing/static/js/488.31f5faa1.chunk.js",
     "static/media/smoke2.mp4": "/Detailing/static/media/smoke2.6c83b1774886ebbcbbf2.mp4",
     "static/media/leather.jpg": "/Detailing/static/media/leather.e2b580f7bab135c8d39d.jpg",
@@ -13,13 +13,14 @@
     "static/media/exterior3.jpg": "/Detailing/static/media/exterior3.ffa487c8325db294d72b.jpg",
     "static/media/car.jpg": "/Detailing/static/media/car.e1d962abf50a30797724.jpg",
     "static/media/carbon.jpg": "/Detailing/static/media/carbon.e33132c9de3daf7da371.jpg",
+    "static/media/email.png": "/Detailing/static/media/email.51b08bcbb5af7a861c31.png",
     "index.html": "/Detailing/index.html",
-    "main.1939ebb3.css.map": "/Detailing/static/css/main.1939ebb3.css.map",
-    "main.1854f500.js.map": "/Detailing/static/js/main.1854f500.js.map",
+    "main.1e590c24.css.map": "/Detailing/static/css/main.1e590c24.css.map",
+    "main.8934ad96.js.map": "/Detailing/static/js/main.8934ad96.js.map",
     "488.31f5faa1.chunk.js.map": "/Detailing/static/js/488.31f5faa1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1939ebb3.css",
-    "static/js/main.1854f500.js"
+    "static/css/main.1e590c24.css",
+    "static/js/main.8934ad96.js"
   ]
 }
