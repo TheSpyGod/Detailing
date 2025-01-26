@@ -1,42 +1,44 @@
 {
-    "title": "DETAILING",
-    "book_button": "BOOK AN APPOINTMENT",
-    "offers": "Our Offers",
-    "page": "Our Page",
-    "quote": "Discover our latest achievements",
-    "contact": "Contact",
-    "records": [
+  "title": "DETAILING",
+  "book_button": "BOOK APPOINTMENT",
+  "offers": "Our Offers",
+  "page": "Our Website",
+  "quote": "Discover our latest achievements",
+  "contact": "Contact",
+  "records": [
     {
       "title": "Mini Valet",
       "price": "50 €",
       "time": "Time: 1 Day",
       "details": [
         "Exterior washing.",
-          "Interior vacuuming, including the trunk.",
-          "Dashboard cleaning.",
-          "Cleaning of all windows inside and out.",
-          "Cleaning of interior plastic elements.",
-          "Mat washing.",
-          "Tire dressing.",
-          "Application of quick detailer / body shine."
-      ]
+        "Vacuuming interior, including the trunk.",
+        "Cleaning dashboard.",
+        "Cleaning all windows inside and out.",
+        "Cleaning interior plastic elements.",
+        "Car mat cleaning.",
+        "Tire care.",
+        "Application of quick detailer / car body shine."
+      ],
+      "category": "Exterior and Interior Cleaning"
     },
     {
       "title": "Full Valet",
       "price": "80 - 100 €",
       "time": "Time: 2 Days",
       "details": [
-       "Exterior washing.",
-          "Interior vacuuming, including the trunk.",
-          "Dashboard cleaning.",
-          "Cleaning of all windows inside and out.",
-          "Cleaning of interior plastic elements.",
-          "Mat washing.",
-          "Tire dressing.",
-          "Paint protection with hard wax (protection up to 6 months).",
-          "Wheel cleaning.",
-          "Invisible wiper application."
-      ]
+        "Exterior washing.",
+        "Vacuuming interior, including the trunk.",
+        "Cleaning dashboard.",
+        "Cleaning all windows inside and out.",
+        "Cleaning interior plastic elements.",
+        "Car mat cleaning.",
+        "Tire care.",
+        "Hard wax car paint protection (protection for up to 6 months).",
+        "Wheel cleaning.",
+        "Application of invisible windshield wiper."
+      ],
+      "category": "Exterior and Interior Cleaning"
     },
     {
       "title": "Full Valet +",
@@ -44,170 +46,189 @@
       "time": "Time: 2 Days",
       "details": [
         "Exterior washing.",
-          "Interior vacuuming, including the trunk.",
-          "Dashboard cleaning.",
-          "Cleaning of all windows inside and out.",
-          "Cleaning of interior plastic elements.",
-          "Mat washing.",
-          "Tire dressing.",
-          "Paint protection with polymer coating (protection up to 12 months).",
-          "Wheel cleaning.",
-          "Invisible wiper application."
-      ]
-    }, 
+        "Vacuuming interior, including the trunk.",
+        "Cleaning dashboard.",
+        "Cleaning all windows inside and out.",
+        "Cleaning interior plastic elements.",
+        "Car mat cleaning.",
+        "Tire care.",
+        "Polymer coating protection for car paint (protection for up to 12 months).",
+        "Wheel cleaning.",
+        "Application of invisible windshield wiper."
+      ],
+      "category": "Exterior and Interior Cleaning"
+    },
     {
-      "title": "Standard Wash",
+      "title": "Standard Washing",
       "price": "25 €",
-      "time": "Time: 2 Days",
+      "time": "Time: 2 days",
       "details": [
-        "Thorough exterior wash, pre-wash of wheels and insects, drying of the body, tire shine, application of hydro wax."
-      ]
+        "Thorough exterior washing, initial wheel and bug washing, drying the bodywork, tire shine, applying hydro wax."
+      ],
+      "category": "Exterior Cleaning"
     },
     {
-      "title": "Premium Wash",
+      "title": "Premium Washing",
       "price": "30 €",
-      "time": "Time: 2 Days",
+      "time": "Time: 2 days",
       "details": [
-        "Thorough exterior wash (two-bucket method), cleaning of door frames, wheel cleaning with ferrous contaminant remover, tire shine, drying of the body, application of hydro wax."
-      ]
+        "Thorough exterior washing (two-bucket method), cleaning door frames, cleaning wheels with iron remover, tire shine, drying the body, applying hydro wax."
+      ],
+      "category": "Exterior Cleaning"
     },
     {
-      "title": "Detailed Wash",
+      "title": "Detailing Wash",
       "price": "60 €",
-      "time": "Time: 2 Days",
+      "time": "Time: 2 days",
       "details": [
-        "Thorough exterior wash (two-bucket method) with brushing, cleaning of door frames, wheel cleaning with ferrous contaminant remover, removal of iron and tar particles from the body, tire shine, drying of the body, application of liquid wax."
-      ]
+        "Thorough exterior washing (two-bucket method) with brushing, cleaning door frames, cleaning wheels with iron remover, removing iron particles and tar from the body, tire shine, drying the body, applying liquid wax."
+      ],
+      "category": "Exterior Cleaning"
     },
     {
       "title": "Quick Detailer",
       "price": "10 - 15 €",
-      "time": "Time: 2 Days",
+      "time": "Time: 2 days",
       "details": [
-        "Quick enhancement of body shine. Restores shine and depth of color."
-      ]
+        "Quick improvement of the body gloss. Restores shine and depth of color."
+      ],
+      "category": "Exterior Cleaning"
     },
     {
-      "title": "Hard Wax Body Protection for up to 6 Months",
+      "title": "Hard Wax Paint Protection up to 6 months",
       "price": "50 - 70 €",
-      "time": "Time: 2 Days",
-      "details": []
+      "time": "Time: 2 days",
+      "details": [],
+      "category": "Exterior Protection"
     },
     {
       "title": "Polymer Coating",
       "price": "80 €",
-      "time": "Time: 2 Days",
+      "time": "Time: 2 days",
       "details": [
-        "Body protection with polymer coating for up to 12 months."
-      ]
+        "Protection for the bodywork with polymer coating for up to 12 months."
+      ],
+      "category": "Exterior Protection"
     },
     {
-      "title": "3-Year Ceramic Coating",
+      "title": "Ceramic Coating 3 Years",
       "price": "350 - 500 €",
-      "time": "Time: 2 Days",
+      "time": "Time: 2 days",
       "details": [
-        "Paint correction and protection with Ulcoat One + Hydro HD coating.",
+        "Correction and protection of the paint with Ulcoat One + Hydro HD coating.",
         "Protection period: 3 years."
-      ]
+      ],
+      "category": "Exterior Protection"
     },
     {
-      "title": "4-Year Ceramic Coating",
+      "title": "Ceramic Coating 4 Years",
       "price": "500 - 750 €",
-      "time": "Time: 2 Days",
+      "time": "Time: 2 days",
       "details": [
-        "Paint correction and protection with Aqua Graphene Coating.",
+        "Correction and protection of the paint with Aqua Graphene coating.",
         "Protection period: 4 years."
-      ]
+      ],
+      "category": "Exterior Protection"
     },
     {
-      "title": "5-Year Ceramic Coating",
+      "title": "Ceramic Coating 5 Years",
       "price": "850 - 1100 €",
-      "time": "Time: 2 Days",
+      "time": "Time: 2 days",
       "details": [
-        "Paint correction and protection with Ultracoat Premium Bond 9h coating.",
+        "Correction and protection of the paint with Ultracoat Premium Bond 9h coating.",
         "Protection period: 5 years."
-      ]
+      ],
+      "category": "Exterior Protection"
     },
     {
-      "title": "Removal of Limescale from Body and Windows",
+      "title": "Removal of Stone Contamination from the Body and Windows",
       "price": "60 - 75 €",
-      "time": "Time: 2 Days",
+      "time": "Time: 2 days",
       "details": [
-        "Restoration of smoothness and clarity of paint and windows by removing limescale deposits using safe methods."
-      ]
+        "Restoration of smoothness and clarity of the paint and windows by removing stone contamination using safe methods."
+      ],
+      "category": "Exterior Cleaning"
     },
     {
-      "title": "Body Decontamination",
+      "title": "Body Decalcification",
       "price": "60 - 75 €",
-      "time": "Time: 2 Days",
+      "time": "Time: 2 days",
       "details": [
-        "Cleaning of paint from contaminants, restoring smoothness and shine."
-      ]
+        "Cleaning the paint from contaminants, restoring its smoothness and gloss."
+      ],
+      "category": "Exterior Cleaning"
     },
     {
-      "title": "Complete Ceramic ( Unlocking ) Coating Service",
+      "title": "Comprehensive Service (Unlocking) Ceramic Coating",
       "price": "85 - 115 €",
-      "time": "Time: 2 Days",
+      "time": "Time: 2 days",
       "details": [
-        "Full maintenance of ceramic coating, restoring its hydrophobic and protective properties."
-      ]
+        "Comprehensive maintenance of the ceramic coating, restoring its hydrophobic and protective properties."
+      ],
+      "category": "Exterior Protection"
     },
     {
       "title": "Basic Upholstery Cleaning",
       "price": "65 - 85 €",
-      "time": "Time: 2 Days",
+      "time": "Time: 2 days",
       "details": [
-        "Includes cleaning of seats, rear seat, and door panels for a 5-seat car."
-      ]
+        "Includes cleaning seats, rear seat, and door panels in a 5-seat car."
+      ],
+      "category": "Interior Cleaning"
     },
     {
       "title": "Seat Cleaning (per seat)",
       "price": "20 €",
-      "time": "Time: 2 Days",
+      "time": "Time: 2 days",
       "details": [
         "Price for cleaning one seat."
-      ]
+      ],
+      "category": "Interior Cleaning"
     },
     {
       "title": "Floor Cleaning",
       "price": "30 - 40 €",
-      "time": "Time: 2 Days",
+      "time": "Time: 2 days",
       "details": [
-        "Floor cleaning without removing the seats."
-      ]
+        "Cleaning the floor without removing the seats."
+      ],
+      "category": "Interior Cleaning"
     },
     {
-      "title": "Floor Mat Cleaning",
+      "title": "Car Mat Cleaning",
       "price": "12 €",
-      "time": "Time: 2 Days",
+      "time": "Time: 2 days",
       "details": [
-        "Cleaning of the car floor mats."
-      ]
+        "Cleaning car mats."
+      ],
+      "category": "Interior Cleaning"
     },
     {
       "title": "Trunk Refresh",
       "price": "15 €",
-      "time": "Time: 2 Days",
+      "time": "Time: 2 days",
       "details": [
-        "Refreshing the car trunk area."
-      ]
+        "Refreshing the trunk space."
+      ],
+      "category": "Interior Cleaning"
     },
     {
       "title": "Leather Upholstery Cleaning",
       "price": "65 - 75 €",
-      "time": "Time: 2 Days",
+      "time": "Time: 2 days",
       "details": [
-        "Cleaning leather seats, door panels, steering wheel, headrests, and gear stick with special products and a leather brush."
-      ]
+        "Cleaning leather seats, door panels, steering wheel, headrests, and gear shift knob using special leather products and brush."
+      ],
+      "category": "Interior Cleaning"
     },
     {
       "title": "Interior Cleaning",
       "price": "from 20 €",
-      "time": "Time: 2 Days",
+      "time": "Time: 2 days",
       "details": [
-        "Complete interior cleaning."
-      ]
+        "Comprehensive interior cleaning."
+      ],
+      "category": "Interior Cleaning"
     }
   ]
 }
-  

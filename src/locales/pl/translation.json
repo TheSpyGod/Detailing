@@ -1,25 +1,26 @@
 {
-    "title": "DETAILING",
-    "book_button": "ZAREZERWUJ TERMIN",
-    "offers": "Nasze Oferty",
-    "page": "Nasza Strona",
-    "quote": "Odkryj nasze nowę osiągnięcia",
-    "contact": "Kontakt",
-    "records": [
+  "title": "DETAILING",
+  "book_button": "ZAREZERWUJ TERMIN",
+  "offers": "Nasze Oferty",
+  "page": "Nasza Strona",
+  "quote": "Odkryj nasze nowę osiągnięcia",
+  "contact": "Kontakt",
+  "records": [
     {
       "title": "Mini Valet",
       "price": "50 €",
       "time": "Czas: 1 Dzień",
       "details": [
         "Mycie zewnętrzne.",
-          "Odkurzanie wnętrza, w tym bagażnika.",
-          "Czyszczenie deski rozdzielczej.",
-          "Czyszczenie wszystkich szyb wewnątrz i na zewnątrz.",
-          "Czyszczenie wewnętrznych elementów plastikowych.",
-          "Pranie dywaników.",
-          "Pielęgnacja opon.",
-          "Aplikacja quick detailera / nabłyszczacza karoserii."
-      ]
+        "Odkurzanie wnętrza, w tym bagażnika.",
+        "Czyszczenie deski rozdzielczej.",
+        "Czyszczenie wszystkich szyb wewnątrz i na zewnątrz.",
+        "Czyszczenie wewnętrznych elementów plastikowych.",
+        "Pranie dywaników.",
+        "Pielęgnacja opon.",
+        "Aplikacja quick detailera / nabłyszczacza karoserii."
+      ],
+      "category": "Mycie zewnętrzne i wewnętrzne"
     },
     {
       "title": "Full Valet",
@@ -27,16 +28,17 @@
       "time": "Czas: 2 Dni",
       "details": [
         "Mycie zewnętrzne.",
-          "Odkurzanie wnętrza, w tym bagażnika.",
-          "Czyszczenie deski rozdzielczej.",
-          "Czyszczenie wszystkich szyb wewnątrz i na zewnątrz.",
-          "Czyszczenie wewnętrznych elementów plastikowych.",
-          "Pranie dywaników.",
-          "Pielęgnacja opon.",
-          "Ochrona lakieru twardym woskiem (ochrona do 6 miesięcy).",
-          "Czyszczenie felg.",
-          "Aplikacja niewidzialnej wycieraczki."
-      ]
+        "Odkurzanie wnętrza, w tym bagażnika.",
+        "Czyszczenie deski rozdzielczej.",
+        "Czyszczenie wszystkich szyb wewnątrz i na zewnątrz.",
+        "Czyszczenie wewnętrznych elementów plastikowych.",
+        "Pranie dywaników.",
+        "Pielęgnacja opon.",
+        "Ochrona lakieru twardym woskiem (ochrona do 6 miesięcy).",
+        "Czyszczenie felg.",
+        "Aplikacja niewidzialnej wycieraczki."
+      ],
+      "category": "Mycie zewnętrzne i wewnętrzne"
     },
     {
       "title": "Full Valet +",
@@ -44,16 +46,17 @@
       "time": "Czas: 2 Dni",
       "details": [
         "Mycie zewnętrzne.",
-          "Odkurzanie wnętrza, w tym bagażnika.",
-          "Czyszczenie deski rozdzielczej.",
-          "Czyszczenie wszystkich szyb wewnątrz i na zewnątrz.",
-          "Czyszczenie wewnętrznych elementów plastikowych.",
-          "Pranie dywaników.",
-          "Pielęgnacja opon.",
-          "Ochrona lakieru powłoką polimerową (ochrona do 12 miesięcy).",
-          "Czyszczenie felg.",
-          "Aplikacja niewidzialnej wycieraczki."
-      ]
+        "Odkurzanie wnętrza, w tym bagażnika.",
+        "Czyszczenie deski rozdzielczej.",
+        "Czyszczenie wszystkich szyb wewnątrz i na zewnątrz.",
+        "Czyszczenie wewnętrznych elementów plastikowych.",
+        "Pranie dywaników.",
+        "Pielęgnacja opon.",
+        "Ochrona lakieru powłoką polimerową (ochrona do 12 miesięcy).",
+        "Czyszczenie felg.",
+        "Aplikacja niewidzialnej wycieraczki."
+      ],
+      "category": "Mycie zewnętrzne i wewnętrzne"
     },
     {
       "title": "Standardowe mycie",
@@ -61,7 +64,8 @@
       "time": "Czas: 2 dni",
       "details": [
         "Dokładne mycie zewnętrzne, wstępne mycie kół i owadów, suszenie nadwozia, połysk opon, nałożenie wosku hydro."
-      ]
+      ],
+      "category": "Mycie zewnętrzne"
     },
     {
       "title": "Mycie Premium",
@@ -69,7 +73,8 @@
       "time": "Czas: 2 dni",
       "details": [
         "Dokładne mycie zewnętrzne (metoda dwóch wiader), czyszczenie framug drzwi, czyszczenie kół z odkamieniaczem żelazowym, połysk opon, suszenie nadwozia, nałożenie wosku hydro."
-      ]
+      ],
+      "category": "Mycie zewnętrzne"
     },
     {
       "title": "Mycie Detaliczne",
@@ -77,7 +82,8 @@
       "time": "Czas: 2 dni",
       "details": [
         "Dokładne mycie zewnętrzne (metoda dwóch wiader) z szczotkowaniem, czyszczenie framug drzwi, czyszczenie kół z odkamieniaczem żelazowym, usunięcie cząsteczek żelaza i smoły z nadwozia, połysk opon, suszenie nadwozia, nałożenie wosku w płynie."
-      ]
+      ],
+      "category": "Mycie zewnętrzne"
     },
     {
       "title": "Quick Detailer",
@@ -85,13 +91,15 @@
       "time": "Czas: 2 dni",
       "details": [
         "Szybkie poprawienie połysku nadwozia. Przywraca połysk i głębię koloru."
-      ]
+      ],
+      "category": "Mycie zewnętrzne"
     },
     {
       "title": "Ochrona nadwozia woskiem twardym do 6 miesięcy",
       "price": "50 - 70 €",
       "time": "Czas: 2 dni",
-      "details": []
+      "details": [],
+      "category": "Ochrona zewnętrzna"
     },
     {
       "title": "Powłoka polimerowa",
@@ -99,7 +107,8 @@
       "time": "Czas: 2 dni",
       "details": [
         "Ochrona nadwozia powłoką polimerową do 12 miesięcy."
-      ]
+      ],
+      "category": "Ochrona zewnętrzna"
     },
     {
       "title": "Powłoka ceramiczna 3 lata",
@@ -108,7 +117,8 @@
       "details": [
         "Korekta i ochrona lakieru powłoką Ulcoat One + Hydro HD.",
         "Okres ochrony: 3 lata."
-      ]
+      ],
+      "category": "Ochrona zewnętrzna"
     },
     {
       "title": "Powłoka ceramiczna 4 lata",
@@ -117,7 +127,8 @@
       "details": [
         "Korekta i ochrona lakieru powłoką Aqua Graphene.",
         "Okres ochrony: 4 lata."
-      ]
+      ],
+      "category": "Ochrona zewnętrzna"
     },
     {
       "title": "Powłoka ceramiczna 5 lat",
@@ -126,7 +137,8 @@
       "details": [
         "Korekta i ochrona lakieru powłoką Ultracoat Premium Bond 9h.",
         "Okres ochrony: 5 lat."
-      ]
+      ],
+      "category": "Ochrona zewnętrzna"
     },
     {
       "title": "Usuwanie kamienia z nadwozia i szyb",
@@ -134,7 +146,8 @@
       "time": "Czas: 2 dni",
       "details": [
         "Restauracja gładkości i przejrzystości lakieru oraz szyb poprzez usunięcie osadów kamienia za pomocą bezpiecznych metod."
-      ]
+      ],
+      "category": "Mycie zewnętrzne"
     },
     {
       "title": "Odkamienianie nadwozia",
@@ -142,7 +155,8 @@
       "time": "Czas: 2 dni",
       "details": [
         "Czyszczenie lakieru z zanieczyszczeń, przywracając jego gładkość i połysk."
-      ]
+      ],
+      "category": "Mycie zewnętrzne"
     },
     {
       "title": "Kompleksowy serwis (odblokowanie) powłoki ceramicznej",
@@ -150,7 +164,8 @@
       "time": "Czas: 2 dni",
       "details": [
         "Kompleksowa konserwacja powłoki ceramicznej, przywracając jej właściwości hydrofobowe i ochronne."
-      ]
+      ],
+      "category": "Ochrona zewnętrzna"
     },
     {
       "title": "Podstawowe czyszczenie tapicerki",
@@ -158,7 +173,8 @@
       "time": "Czas: 2 dni",
       "details": [
         "W cenie czyszczenie siedzeń, tylnej kanapy oraz paneli drzwiowych w samochodzie 5-osobowym."
-      ]
+      ],
+      "category": "Czyszczenie wnętrza"
     },
     {
       "title": "Czyszczenie siedzenia (za siedzenie)",
@@ -166,7 +182,8 @@
       "time": "Czas: 2 dni",
       "details": [
         "Cena za czyszczenie jednego siedzenia."
-      ]
+      ],
+      "category": "Czyszczenie wnętrza"
     },
     {
       "title": "Czyszczenie podłogi",
@@ -174,7 +191,8 @@
       "time": "Czas: 2 dni",
       "details": [
         "Czyszczenie podłogi bez demontażu siedzeń."
-      ]
+      ],
+      "category": "Czyszczenie wnętrza"
     },
     {
       "title": "Czyszczenie dywaników",
@@ -182,7 +200,8 @@
       "time": "Czas: 2 dni",
       "details": [
         "Czyszczenie dywaników samochodowych."
-      ]
+      ],
+      "category": "Czyszczenie wnętrza"
     },
     {
       "title": "Odświeżenie bagażnika",
@@ -190,7 +209,8 @@
       "time": "Czas: 2 dni",
       "details": [
         "Odświeżenie przestrzeni bagażnika samochodu."
-      ]
+      ],
+      "category": "Czyszczenie wnętrza"
     },
     {
       "title": "Czyszczenie tapicerki skórzanej",
@@ -198,7 +218,8 @@
       "time": "Czas: 2 dni",
       "details": [
         "Czyszczenie skórzanych siedzeń, paneli drzwiowych, kierownicy, zagłówków i gałki zmiany biegów przy użyciu specjalnych produktów i szczotki do skóry."
-      ]
+      ],
+      "category": "Czyszczenie wnętrza"
     },
     {
       "title": "Czyszczenie wnętrza",
@@ -206,7 +227,8 @@
       "time": "Czas: 2 dni",
       "details": [
         "Kompleksowe czyszczenie wnętrza."
-      ]
+      ],
+      "category": "Czyszczenie wnętrza"
     }
   ]
-  }
+}

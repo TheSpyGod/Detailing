@@ -1,5 +1,4 @@
 import React, { useState, useEffect} from 'react';
-import { Parallax } from 'react-parallax';
 import video2 from './smoke2.mp4';
 import './App.css';
 import Card from './Card';
@@ -14,20 +13,20 @@ import image3 from './slideshow/exterior3.jpg';
 import image4 from './slideshow/exterior4.jpg';
 import image6 from './slideshow/interior1.jpg';
 import image7 from './slideshow/interior2.jpg';
-import bgImage1 from './car.jpg';
+import bgImage1 from './car2.jpg';
 import bgImage2 from './slideshow/interior2.jpg';
 import email from './email.png';
 import { useSlideshow } from './Slideshow';
 
 function App() {
   const { t, i18n } = useTranslation();
-  const [cards, setData] = useState([]);
+  const [categorizedCards, setCategorizedCards] = useState({});
   const [bgImage, setBgImage] = useState(bgImage1);
 
   useEffect(() => {
     const records = t('records', { returnObjects: true });
     const processedRecords = processRecords(records);
-    setData(processedRecords);
+    setCategorizedCards(processedRecords);
   }, [t]);
 
   const changeLanguage = (lng) => {
@@ -65,46 +64,56 @@ function App() {
     window.location.href = 'https://www.facebook.com/search/top?q=autodetailing.expert';
   };
 
+  const getInitials = (category) => {
+    return category
+      .split(' ')
+      .map(word => word.charAt(0).toUpperCase())
+      .join('');
+  };
+
   return (
     <div className="App">
-       <Parallax strength={300} style={{ width: '100%', minHeight: '100vh' }}>
-        <div className="background-layer" style={{
-            backgroundImage: `url(${bgImage})`
-          }}>
-          <video src={video2} autoPlay loop muted style={{ width: '100%', height: '100vh', objectFit: 'cover' }} />
-        </div>
-        <div className="title-card">
-          <div className="lang_btn">
-            <button onClick={() => changeLanguage('en')}>EN</button>
-            <button onClick={() => changeLanguage('pl')}>PL</button>
-            <button onClick={() => changeLanguage('es')}>ES</button>
+          <div className="background-layer" style={{
+              backgroundImage: `url(${bgImage})`
+            }}>
+            <video src={video2} autoPlay loop muted style={{ width: '100%', height: '100vh', objectFit: 'cover' }} />
           </div>
-          <h1>{t('title')}</h1>
-          <button onClick={scrollToBottom}>{t('book_button')}</button>
+          <div className="title-card">
+            <div className="lang_btn">
+              <button onClick={() => changeLanguage('en')}>EN</button>
+              <button onClick={() => changeLanguage('pl')}>PL</button>
+              <button onClick={() => changeLanguage('es')}>ES</button>
+            </div>
+            <h1>{t('title')}</h1>
+            <button onClick={scrollToBottom}>{t('book_button')}</button>
         </div>
-      </Parallax>
 
-      <Parallax strength={300} style={{ width: '100%', minHeight: '100vh' }}>
         <div className="title-card">
           <h1>{t('page')}</h1>
           <img id="slideshow" src={currentImage} alt="Slideshow" onClick={handleSlideshowClick} />
         </div>
-      </Parallax>
 
       <div className="banner">
         <h1>{t('offers')}</h1>
       </div>
 
       <div className="maincontent">
-        {cards.map((card, index) => (
-          <Card 
-            key={index}
-            className="card"
-            title={card[0]}
-            price={card[1]} 
-            detailedDescription={<span dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(card[3]) }} />}
-            scrollToPage={scrollToBottom}
-          />
+      {Object.keys(categorizedCards).map(category => (
+          <div key={category} className={`category-container ${getInitials(category)}`}>
+            <h2>{category}</h2>
+              <div className="cards-row"> 
+              {categorizedCards[category].map((card, index) => (
+                <Card
+                  key={index}
+                  className="card"
+                  title={card[0]}
+                  price={card[1]}
+                  detailedDescription={<span dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(card[3]) }} />}
+                  scrollToPage={scrollToBottom}
+                />
+              ))}
+              </div>
+          </div>
         ))}
       </div>
       <div className="contact">
@@ -114,8 +123,12 @@ function App() {
               </p>
               <h3>
                 <img src={email} alt="Email Logo"/> <br/>
-                marcinjarzebiak59@gmail.com
-                {/*5 Carrer Cervantes , Crevillente, Spain*/}
+                marcinjarzebiak59@gmail.com <br/>
+              </h3>
+              <h3>
+                
+              <img src={email} alt="Email Logo"/> <br/>
+                5 Carrer Cervantes , Crevillente, Spain
               </h3>
             </div>
     </div>
