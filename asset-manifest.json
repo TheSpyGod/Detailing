@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Detailing/static/css/main.669e634a.css",
-    "main.js": "/Detailing/static/js/main.f19cacd2.js",
-    "static/js/488.31f5faa1.chunk.js": "/Detailing/static/js/488.31f5faa1.chunk.js",
-    "static/media/smoke2.mp4": "/Detailing/static/media/smoke2.6c83b1774886ebbcbbf2.mp4",
-    "static/media/car2.jpg": "/Detailing/static/media/car2.296886d904bb4c0893d4.jpg",
-    "static/media/exterior1.jpg": "/Detailing/static/media/exterior1.f0b4a23837596ac72b2e.jpg",
-    "static/media/exterior2.jpg": "/Detailing/static/media/exterior2.3e0152370776bd3a987f.jpg",
-    "static/media/interior2.jpg": "/Detailing/static/media/interior2.c1f63688c6185592ef66.jpg",
-    "static/media/interior1.jpg": "/Detailing/static/media/interior1.a699366021ade0d3dbd3.jpg",
-    "static/media/exterior4.jpg": "/Detailing/static/media/exterior4.18b33c700aa36d4bef75.jpg",
-    "static/media/exterior3.jpg": "/Detailing/static/media/exterior3.ffa487c8325db294d72b.jpg",
-    "static/media/carbon.jpg": "/Detailing/static/media/carbon.e33132c9de3daf7da371.jpg",
-    "static/media/email.png": "/Detailing/static/media/email.51b08bcbb5af7a861c31.png",
-    "index.html": "/Detailing/index.html",
-    "main.669e634a.css.map": "/Detailing/static/css/main.669e634a.css.map",
-    "main.f19cacd2.js.map": "/Detailing/static/js/main.f19cacd2.js.map",
-    "488.31f5faa1.chunk.js.map": "/Detailing/static/js/488.31f5faa1.chunk.js.map"
+    "main.css": "/static/css/main.8a8c028a.css",
+    "main.js": "/static/js/main.ba075d46.js",
+    "static/js/488.31f5faa1.chunk.js": "/static/js/488.31f5faa1.chunk.js",
+    "static/media/smoke2.mp4": "/static/media/smoke2.6c83b1774886ebbcbbf2.mp4",
+    "static/media/car2.jpg": "/static/media/car2.296886d904bb4c0893d4.jpg",
+    "static/media/exterior1.jpg": "/static/media/exterior1.f0b4a23837596ac72b2e.jpg",
+    "static/media/exterior2.jpg": "/static/media/exterior2.3e0152370776bd3a987f.jpg",
+    "static/media/interior2.jpg": "/static/media/interior2.c1f63688c6185592ef66.jpg",
+    "static/media/interior1.jpg": "/static/media/interior1.a699366021ade0d3dbd3.jpg",
+    "static/media/exterior4.jpg": "/static/media/exterior4.18b33c700aa36d4bef75.jpg",
+    "static/media/exterior3.jpg": "/static/media/exterior3.ffa487c8325db294d72b.jpg",
+    "static/media/carbon.jpg": "/static/media/carbon.e33132c9de3daf7da371.jpg",
+    "static/media/email.png": "/static/media/email.51b08bcbb5af7a861c31.png",
+    "index.html": "/index.html",
+    "main.8a8c028a.css.map": "/static/css/main.8a8c028a.css.map",
+    "main.ba075d46.js.map": "/static/js/main.ba075d46.js.map",
+    "488.31f5faa1.chunk.js.map": "/static/js/488.31f5faa1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.669e634a.css",
-    "static/js/main.f19cacd2.js"
+    "static/css/main.8a8c028a.css",
+    "static/js/main.ba075d46.js"
   ]
 }
